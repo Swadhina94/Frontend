@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <title>Amazon</title>
+</head>
+
+<body>
+
+    <nav class="d-flex justify-content-between align-items-center p-3 m-3 border">
+        <div class="fs-4 fw-bold">Amazon</div>
+
+        <button
+            class="bi bi-person-fill border btn btn-danger fw-bold"
+            data-bs-toggle="modal"
+            data-bs-target="#sign">
+            Signin
+        </button>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="sign" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="d-flex justify-content-between align-items-center p-3 border">
+                    <div class="fs-5 fw-bold">User Login</div>
+
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                        X
+                    </button>
+                </div>
+
+                <!-- Modal Body -->
+                <form class="p-3">
+
+                    <label class="form-label">User name</label>
+                    <input type="text" class="form-control mb-3">
+
+                    <label class="form-label">User password</label>
+                    <input type="password" class="form-control mb-3">
+
+                    <label class="form-label">User email</label>
+                    <input type="email" class="form-control mb-3">
+
+                    <label class="form-label">Email password</label>
+                    <input type="password" class="form-control mb-3">
+
+                    <button type="submit" class="btn btn-warning">
+                        Login
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
