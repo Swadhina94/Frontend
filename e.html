@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap </title>
+    <link rel="Stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    <style>
+        body{
+            background-image:linear-gradient(90deg , #113 0%, #123 45%, #134 70%, #145 100%)
+        
+        }
+        header {
+            
+            background-color: #8d07ae;
+            color: white;
+            padding: 10px;
+            font-family: Arial;
+            font-size: 20px;
+            display: flex;
+            justify-content:space-between; 
+            flex-direction:row ;
+            align-items: center;
+        }
+        nav span{
+            padding-right: 20px;
+
+        }
+        .search-bar{
+            background-color: #690369;
+            padding: 10px;
+            border: 1px solid #dbe974;
+            
+            width: 300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 15px;
+            border-radius: 5px;
+            align-items: center;
+        }
+        .btn-cmd{
+            background-color: #3c023c;
+            padding: 5px;
+            border-radius: 5px;
+           
+        }
+        .shortcuts{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 220px;
+        }
+        aside span{
+            padding-right: 10px;
+        }
+        main{
+            text-align: center;
+            color: white;
+        }
+        .Security {
+            border: 1px solid rgb(237, 237, 104);
+            border-radius: 50px;
+            padding: 15px;
+            text-align: center;
+            width: 450px;
+            margin: auto;
+            margin-top: 70px;
+            background-color: rgb(250, 250, 124);
+            justify-content: center;
+            font-size: 25px;
+            color: black;
+        }
+        .logo{
+            margin-top: 50px;
+            font-size: 200px;
+            color: #8d07ae;
+        }
+        .main-title{
+            margin-top: 35px;
+            color: white;
+            text-align: center;
+            font-family: Arial;
+            font-size:80px ;
+        }
+        .main-subtitle{
+            margin-top: 30px;
+            color: rgb(218, 215, 215);
+            text-align: center;
+            font-family: Arial;
+            font-size:30px ;
+
+        }
+        .npm{
+            color: rgb(55, 218, 55);
+        }
+        
+        .form{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            
+        }
+        .version{
+            border: 1px solid rgb(223, 215, 215);
+            border-radius: 5px;
+            font-size: 20px ;
+            width: 250px;
+            padding: 15px;
+            justify-content: space-between;
+            display: flex;
+            background-color:rgba(0,0,0,0.3)  ;
+            
+            
+        }
+        .read{
+            border: 1px solid rgb(97, 114, 228);
+            border-radius: 5px;
+            font-size: 30px ;
+            width: 200px;
+            padding: 15px;
+            background-color: rgb(139, 26, 195);
+            display: flex;
+            justify-content: space-between;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <span>
+                    <i class="bi bi-bootstrap-fill"></i>
+                    <span>Docs</span>
+                    <span>Examples</span>
+                    <span>Icons</span>
+                    <span>Blog</span>
+                </span>
+            </nav>
+
+
+        </div>
+
+        <div >
+            <div class="search-bar">
+                <div>
+                    <span class="bi bi-search"></span>
+                    <span>Search</span>
+                </div>
+                <div>
+                    <div class="btn-cmd">
+                        <span class="bi bi-command"></span>
+                        <span>K</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="shortcuts">
+            <div>
+                <aside>
+                    <span class="bi bi-github"></span>
+                    <span class="bi bi-twitter-x"></span>
+                    <span class="bi bi-opencollective"></span>
+                </aside>
+
+            </div>
+            <div>
+                <span> v5.3 <span class="bi bi-chevron-down"></span></span>
+                <span class="bi bi-sun-fill"><span class="bi bi-chevron-down"></span></span>
+                </span>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="Security">Get Security Updates for Bootstrap 3 & 4 <i class="bi bi-arrow-right"></i></div>
+        <div class="logo"><i class="bi bi-bootstrap-fill"></i></div>
+        <div class="main-title">Build fast, responsive sites <br>with Bootstrap</div>
+        <div class="main-subtitle">Powerful, extensible, and feature-packed frontend toolkit. Build and customize<br> with Sass, utilize prebuilt grid system and components, and bring projects to life <br>with powerful JavaScript plugins.</div>
+        <div class="form">
+            <div class="version"><i class="bi bi-currency-dollar"></i><span class="npm">npm </span>i bootstrap@5.3.8  <div class="bi bi-clipboard"></div></div>
+            <div class="read"><div class="bi bi-book-half"></div>Read the docs</div>
+        </div>
+    </main>
+    
+</body>
+</html>
