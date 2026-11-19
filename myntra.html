@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="shortcuticon" href>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            background-color: #efeeee;  
+            padding: 10px;
+            font-family:Arial;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .brand-title{
+            font-family: 'Playwrite DE SAS Guides', cursive;
+            font-size: 40px;
+            color: red;
+
+        }
+        nav{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .search-bar{
+            background-color: #9e9b9b;
+            
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            width: 400px;
+            padding: 10px;
+            font-size: 16px;
+
+        }
+        .search-bar span{
+            padding-right: 30px;
+            
+
+        }
+        .shortcuts span{
+            display: block;
+            font-weight: bold;
+            /* font-size: 30px; */
+        }
+        .bi-person, .bi-heart, .bi-bag{
+            font-size: 22px;
+        }
+        .shortcuts{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 200px;
+            text-align: center;
+
+            
+        }
+        nav span{
+            padding-right:16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <span class="brand-title">M</span>
+                <span>Men</span>
+                <span>Women</span>
+                <span>Kids</span>
+                <span>Home</span>
+                <span>Beauty</span>
+                <span>Genz</span>
+                <span>Studio</span>
+            </nav>
+        </div>
+        
+            <div class="search-bar">
+                <span><i class="bi bi-search"></i></span>
+                <span>Search for products, brands and more</span>
+            </div>
+
+        
+        <div class="shortcuts">
+            <div class="shortcut">
+                <span><i class="bi bi-person"></i></span>
+                <span class="shortcut-title">Profile</span>
+            </div>
+            <div class="shortcut">
+                <span><i class="bi bi-heart"></i></span>
+                <span class="shortcut-title">Wishlist</span>
+            </div>
+            <div class="shortcut">
+               <span><i class="bi bi-bag"></i></span>
+               <span class="shortcut-title">Bag</span>
+            </div>
+        </div>
+    </header>
+    
+ 
+</body>
+</html>
