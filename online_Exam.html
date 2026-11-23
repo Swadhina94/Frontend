@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online_Exam</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+         nav{
+            
+            background-color: rgb(216, 242, 151);
+            padding: 20px;
+            font-family: Arial;
+            height:700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+        .nav-menu{
+            list-style: none;
+            margin-top: 30px;
+            margin-left: -40px;
+            font-weight: bold;
+        }
+        .title{
+            font-size: 30px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        .sub-title{
+            font-size: 20px;
+            margin-bottom: 20px;
+
+        }
+        .nav-menu li{
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            
+        }
+        .bi-columns-gap{
+            background-color: rgb(145, 224, 211);
+            border-radius: 5px;
+
+        }
+        .btn-signout{
+            list-style: none;
+            box-sizing: border-box;
+            
+            border-top: 1px solid gray;
+            padding-top: 20px;
+            font-weight: bold;
+        }
+        .btn-signout li {
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-left:-40px;
+        }
+        body{
+            display: grid;
+            grid-template-columns: 2.5fr 9.5fr;
+        }
+        main{
+            background-color: rgb(132, 162, 101);
+        }
+        span :hover{
+            color: rgb(44, 158, 184);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <div class="title">Proctor Precision</div>
+            <div class="sub-title">Examination Portal</div>
+            <ul class="nav-menu">
+                <li class="bi bi-columns-gap "><span>Dashboard</span></li>
+                <li class="bi bi-clipboard-check"><span>Active Exams</span></li>
+                <li class="bi bi-journal-text"><span>Question Bank</span></li>
+                <li class="bi bi-bar-chart"><span>Results</span></li>
+                <li class="bi bi-calendar2-week"><span>Schedule</span></li>
+            
+            </ul>
+
+        </div>
+        <div>
+            <ul class="btn-signout">
+                <li class="bi bi-gear"><span>Settings</span></li>
+                <li class="bi bi-question-circle"><span>Help Center</span></li>
+                <li class="bi bi-box-arrow-right"><span>Logout</span></li>
+            </ul>    
+
+        </div>
+    </nav>
+
+    <main>
+
+    </main>
+</body>
+</html>
